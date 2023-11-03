@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header{
+    display:flex ;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto Serif', serif;
+}
+p{
+    color: white;
+}
+header section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 12vw;
+    position: relative;
+    left: 60px;
+}
+header section img{
+    height: 5vh;
+}
+header nav{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 19vw;
+    margin-right: 40px;
+}
+
+header nav img{
+    height: 3vh;
+}
+.section1{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height:120vh ;
+  background-size: 100% 100%;
+  background-image:url(./imagem/cao1.png);
+  background-repeat: no-repeat;
+}
+.logo-meio{
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14vh;
+}
+.text-dog1 {
+  width: 82vh;
+  font-size: 8vh;
+  color: white;
+  position: absolute;
+  top: 29vh;
+  left: 31vw;
+  font-family: 'Roboto Serif', serif;
+}
+.text-dog2{
+  display: flex;
+  align-items: center;
+  height: 130vh;
+  background-size: 100% 100%;
+  background-image:url(./imagem/cao2.png);
+  background-repeat: no-repeat;
+  
+}
+main .text-dog2 h2{
+  width: 40vw;
+  font-size: 60px;
+  font-family: 'Roboto Serif', serif;
+
+}
+main .text-dog2 p{
+  color: black;
+  font-size: 40px;
+  margin-top: 2vh;
+  font-family: 'Roboto', sans-serif;
+}
+main .text-dog2 div{
+  margin-top: 15vh;
+  height: 80vh;
+  width: 32vw;
+  margin-left: 8vw;
+}
+main .text-dog2 button{
+  background-color: #3A342F;
+  color: white;
+  font-size:22px;
+  height: 8vh;
+  width: 15vw;
+  border-radius: 44px;
+  margin-top:10vh;
+  font-family: 'Roboto', sans-serif;
+}
+.text-dog3 {
+  background-image:url(./imagem/cao3.png);
+  height: 130vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}main .text-dog3 div{
+  margin-right: 7vw;
+  margin-bottom: 23vh;
+  width:30vw ;
+  height: 80vh;
+  
+}main .text-dog3 h1{
+  color: white;
+  font-size: 60px;
+  font-family: 'Roboto Serif', serif;
+}
+main .text-dog3 p{
+  margin-top: 2vh;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+main .text-dog3 button{
+  font-size:22px;
+  height: 8vh;
+  width: 15vw;
+  border-radius: 44px;
+  margin-top:10vh;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+footer .sessao1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 13vh;
+ 
+}
+footer .sessao1 div{
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15vw;
+
+}
+.sociais-footer{
+  position: relative;
+  right: 6vw;
+}
+footer .sessao1 p{
+  color: #FD6A9A;
+  font-size: 30px;
+  position: relative;
+  left: 5vw;
+  font-family: 'Roboto Serif', serif;
+}
+footer .sessao2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #EB4A7B;
+  display: flex;
+  height: 34vh;
+  color: white;
+  list-style: none;
+}
+footer .sessao2 li{
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}h3{
+  font-size: 24px;
+  margin-bottom: 2vh;
+  font-family: 'Roboto Serif', serif;
+ 
+}
+footer .sessao2 nav{
+  margin-right: 20vw;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.insta-footer{
+  display: none;
+}
+.youtube-footer{
+  display: none;
+}
+.whatsapp-footer{
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+  .insta-icon{
+      display: none;
+  }
+  .youtube-icon{
+      display: none;
+  }
+  header{
+      height: 15vh;
+  }
+  
+  .whats-icon{
+      height: 7vh;
+  }
+  header section figure img {
+    
+    height: 10vh;
+}
+header section p {
+    font-size: 20px;
+}
+header section{
+    margin-left: 5vw;
+}
+main .sessao1{
+    height: 128vh;
+    background-image: url(./imagem/cao1-mobile.png);    
+}
+main .text-dog1{
+    position: absolute;
+    left: 6vw;
+    height:20vh ;
+    width: 90vw;
+    font-size: 45px;   
+}
+.insta-footer{
+  display: initial;
+  width: 5vw;
+}
+.youtube-footer{
+  display: initial;
+  width: 7vw;
+}
+.whatsapp-footer{
+  display: initial;
+  width: 5vw;
+}
+.sociais-footer nav{
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 15vw;
+}
+}
